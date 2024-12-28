@@ -16,7 +16,7 @@ These tools are part of the base configuration, though all can be deactivated:
    - Artistic and copyright constraints management
    - Output size customization
 
-2. Web Tools [`web.md`](./web.md)
+2. Web [`web.md`](./web.md)
    - Real-time information search
    - Location-aware services
    - URL and web navigation management
@@ -28,7 +28,7 @@ These tools are part of the base configuration, though all can be deactivated:
    - Data visualization tools
    - File persistence system
 
-4. Canvas Tool [`canmore.md`](./canmore.md) - New
+4. Canvas [`canmore.md`](./canmore.md) - New
    - Document creation and management
    - Pattern-based update system
    - Feedback and review functionality
@@ -36,7 +36,8 @@ These tools are part of the base configuration, though all can be deactivated:
 5. Memory System [`bio.md`](./bio.md)
    - Information persistence across conversations
    - Automated reference system
-   - Note: Unlike other tools which are simply removed from the prompt when deactivated, this tool shows a specific "tool disabled" message in the system prompt when deactivated
+
+   > Note: Unlike other tools which are simply removed from the prompt when deactivated, this tool shows a specific "tool disabled" message in the system prompt when deactivated.
 
 ### 🔄 Conditional Tools
 
