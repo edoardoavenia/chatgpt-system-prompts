@@ -1,6 +1,6 @@
 # ChatGPT System Prompts
 
-A modular system of prompts and tools for creating and customizing GPT applications. This repository documents the various system components and their activation conditions.
+A comprehensive collection of leaked ChatGPT system prompts revealing its internal modular architecture. This repository documents the core tools, conditional features, specialized assistants, and their activation mechanisms, providing insights into how ChatGPT coordinates different components and manages tool availability based on context and configuration.
 
 ## 🎯 Structure and Modularity
 
