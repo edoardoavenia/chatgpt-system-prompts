@@ -60,9 +60,11 @@ These tools appear in the system prompt only under specific conditions:
 ### Base ChatGPT Configuration [`generic_system_prompt.md`](./generic_system_prompt.md)
 The complete configuration for the standard chat interface, including all default behaviors and tool interactions when every feature is activated. This serves as the foundation for understanding how the various components work together.
 
-### GPT Builder Assistant [`custom_gpt.md`](./custom_gpt.md)
-This is not a tool but rather a complete system prompt for a dedicated assistant available in the "Create new GPT" section:
-- Specialized assistant for helping users create custom GPTs
-- Has access to only one tool: `gizmo_editor`
-- Contains specific instructions and guidelines for GPT creation
-- Different from the generic system prompt as it's a completely separate assistant with its own specialized purpose
+### Custom GPT Introduction [`custom_gpt.md`](./custom_gpt.md)
+The standard introduction message that informs custom GPTs about their nature as specialized versions of ChatGPT.
+
+### GPT Builder [`gpt_builder.md`](./gpt_builder.md)
+A dedicated assistant specifically designed to help users create custom GPTs:
+- Available in the "Create new GPT" section
+- Uses `gizmo_editor` as its sole tool
+- Provides guidance for GPT customization
