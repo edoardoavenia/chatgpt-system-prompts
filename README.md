@@ -55,6 +55,23 @@ These tools appear in the system prompt only under specific conditions:
    - Standardized namespace management
    - Response handling structure
 
+### 🔧 New Tools
+
+1. Automations [`automations.md`](./automations.md)
+   - Task scheduling and automation system
+   - Supports recurring tasks with iCal VEVENT format
+   - Conditional task execution
+   - Features include:
+     - Customizable schedules
+     - Reminder system
+     - Search automation
+     - Task management with enable/disable functionality
+   - Implementation details:
+     - Title formatting requirements
+     - Prompt structure guidelines
+     - Schedule specification using iCal format
+     - Error handling and user feedback system
+
 ## 📝 System Prompts
 
 ### Base ChatGPT Configuration [`generic_system_prompt.md`](./generic_system_prompt.md)
