@@ -57,7 +57,13 @@ These tools appear in the system prompt only under specific conditions:
 
 ### 🔧 New Tools
 
-1. Automations [`automations.md`](./automations.md)
+1. Operator [`operator.md`](./operator.md)
+   - Computer browser access and task automation
+   - Safe browsing with confirmation requirements
+   - Restricted access for sensitive tasks
+   - Built-in safety policies for images and content
+
+2. Automations [`automations.md`](./automations.md)
    - Task scheduling and automation system
    - Supports recurring tasks with iCal VEVENT format
    - Conditional task execution
